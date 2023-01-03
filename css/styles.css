@@ -3,13 +3,6 @@
     src: url(../font/GrandHotel-Regular.ttf);
 }
 
-
-@media screen and (min-width: 1920px) {
-    .container {
-
-    }
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -36,24 +29,13 @@ body {
 
 header {
     background-color: #303030;
-    height: 796px;
 }
 
-
-.container-header {
-    width: 1440px;
-    margin: 0 auto;
-    background-color: white;
-}
 
 main > .container-main {
     background-color: white;
 }
 
-.container-main {
-    width: 1170px;
-    margin: 0 auto;
-}
 
 .links-header {
     padding: 40px 60px;
@@ -62,24 +44,19 @@ main > .container-main {
 }
 
 .links-header ul:first-of-type {
-    display: inline-flex;
+    display: flex;
     align-items: center;
 
 }
 
-.links-header ul:last-of-type {
-    display: inline-flex;
-    float: right;
-    align-items: center;
-    justify-content: flex-end;
-    line-height: 45.5px;
-    gap: 70px;
+
+.links-header ul > li:first-of-type {
+    margin-right: auto;
 }
 
 
 .links-header ul li {
     list-style-type: none;
-
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -90,18 +67,11 @@ main > .container-main {
     background: url('../images/header-image.png') no-repeat,
     url('../images/dishes-image.png') no-repeat;
     background-position: 431px, 0px;
-    background-size: contain, contain;
+    background-size: cover ,contain;
 }
 
 
-.text-about {
-    padding-top: 50px;
-    width: 760px;
-    height: auto;
-    position: relative;
-    z-index: 1;
-    margin-left: auto;
-}
+
 
 .text-about p:first-of-type {
     color: #ffc200;
@@ -110,20 +80,13 @@ main > .container-main {
 }
 
 .text-about p:nth-child(2) {
-    display: inline-flex;
+    display: flex;
     color: white;
     font-size: 30px;
     margin-bottom: 40px;
 }
 
-.text-about a {
-    display: inline-flex;
-    color: black;
-    font-size: 20px;
-    padding: 10px 40px;
-    font-weight: 600;
-    background-color: #ffc200;
-}
+
 
 .text-about a:hover {
 
@@ -137,7 +100,6 @@ main > .container-main {
     text-align: center;
     padding: 160px 0 60px 0;
     margin: 0 auto;
-    width: 1000px;
     height: auto;
 }
 
@@ -181,21 +143,14 @@ main > .container-main {
 .oriental-taste {
     background-image: url("../images/main-image.png");
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
-.oriental-info {
-    display: flex;
-    height: auto;
-    margin: 0 auto;
-    position: relative;
-    padding: 100px 75px 0 75px;
-}
+
 
 
 .statistics {
     background: url("../images/statistics-bg.png");
-    height: 725px;
+    /*height: 725px;*/
     background-color: #303030;
     background-size: contain;
 }
@@ -239,12 +194,7 @@ main > .container-main {
     padding-bottom: 350px;
 }
 
-.lenora-fields {
-    padding: 300px 230px;
-    text-align: center;
-    background: url("../images/lenora-fields-yellow-bg.png") no-repeat, url("../images/lenora-fields-bg.png") no-repeat;
-    background-size: cover, cover;
-}
+
 
 .lenora-fields p:first-of-type {
     padding-bottom: 20px;
@@ -258,7 +208,7 @@ main > .container-main {
 
 .subscribe {
     background: url("../images/statistics-bg.png") no-repeat;
-    height: 725px;
+    /*height: 725px;*/
     background-color: #f4f4f4;
     background-size: contain;
     background-origin: content-box;
@@ -270,7 +220,6 @@ main > .container-main {
 .subscribe > .container-main > .text-about {
     text-align: center;
     margin: 0 auto;
-    width: 790px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -279,7 +228,7 @@ main > .container-main {
 
 .subscribe > .container-main > .text-about > p > input {
     padding: 10px 200px 10px 10px;
-    display: inline-flex;
+    display: flex;
     font-size: 18px;
     border: none;
     letter-spacing: 0.06em;
@@ -291,11 +240,12 @@ main > .container-main {
 
 .input-form{
     filter: drop-shadow(0px 0px 17px rgba(0,0,0,0.2));
+    display: flex;
 }
 
 footer{
     background: #303030;
-    height: 800px;
+    /*height: 800px;*/
 }
 
 .footer-info{

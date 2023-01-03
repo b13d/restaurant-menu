@@ -1,0 +1,229 @@
+@media screen and (min-width: 1000px) {
+    .container-header {
+        max-width: 1440px;
+        margin: 0 auto;
+        background-color: white;
+    }
+
+    .container-main {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+
+    .text-about {
+        padding-top: 50px;
+        width: 50%;
+        height: auto;
+        position: relative;
+        z-index: 1;
+        margin-left: auto;
+    }
+
+    .links-header ul {
+        display: flex;
+        align-items: center;
+        line-height: 45.5px;
+        gap: 1em;
+    }
+
+    .lenora-fields {
+        padding: 300px 230px;
+        text-align: center;
+        background: url("../images/lenora-fields-yellow-bg.png") no-repeat, url("../images/lenora-fields-bg.png") no-repeat;
+        background-size: cover, cover;
+    }
+
+    .oriental-info {
+        display: flex;
+        height: auto;
+        margin: 0 auto;
+        position: relative;
+        padding: 100px 75px 0 75px;
+    }
+
+    .text-about a {
+        color: black;
+        font-size: 20px;
+        padding: 10px 40px;
+        font-weight: 600;
+        background-color: #ffc200;
+        display: inline-block;
+    }
+
+    .subscribe {
+        padding: 20px 20px 70px 20px!important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container-header {
+        max-width: 1000px;
+        margin: 0 auto;
+        background-color: white;
+    }
+
+    .container-main {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .text-about {
+        padding-top: 50px;
+        height: auto;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .links-header ul:last-of-type {
+        display: flex;
+        align-items: center;
+        line-height: 45.5px;
+        gap: 1em;
+    }
+
+    .lenora-fields {
+        padding: 60px 0px;
+        text-align: center;
+        background: url("../images/lenora-fields-yellow-bg.png") no-repeat, url("../images/lenora-fields-bg.png") no-repeat;
+        background-size: cover, cover;
+    }
+
+    .links-header ul li {
+        list-style-type: none;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .text-about p:first-of-type {
+        color: #ffc200;
+        font-size: 90px;
+        font-family: 'GrandHotel', sans-serif;
+    }
+
+    .text-about p:nth-child(2) {
+        display: flex;
+        color: white;
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+
+    .oriental-info {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .text-about a {
+        color: black;
+        font-size: 20px;
+        padding: 10px 40px;
+        font-weight: 600;
+        background-color: #ffc200;
+        display: inline-block;
+    }
+
+    .chicken-grill > .container-main > .text-about {
+        margin: 0 auto !important;
+        float: none !important;
+        width: auto!important;
+    }
+
+    .chicken-grill > .container-main > img {
+        margin: 25px auto !important;
+        display: block;
+    }
+
+    .subscribe {
+        padding: 20px 20px 70px 20px!important;
+    }
+}
+
+@media screen and (max-width: 835px) {
+    .images-main {
+        display: flex;
+        align-items: center;
+        flex-direction: column!important;
+        justify-content: space-between;
+        padding-bottom: 0!important;
+    }
+
+    .about-dish {
+        margin-bottom: 25px;
+    }
+
+    .about-dish > .text-about-dish > p:last-of-type {
+        font-size: 25px;
+    }
+
+    .circles-statistics{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .statistics-text {
+        padding-bottom: 0!important;
+    }
+
+    .chicken-grill {
+        padding-bottom: 0!important;
+    }
+
+    .links-header ul{
+        display: none!important;
+    }
+
+    .subscribe, .subscribe > .container-main{
+        display: block!important;
+    }
+
+    .footer-info > .info{
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 480px;
+        margin: 0 0 10px 0!important;
+    }
+
+    .footer-info{
+        margin: 0!important;
+        flex-direction: column;
+        padding: 60px 20px!important;
+    }
+
+    .subscribe > .container-main > .text-about > p > input {
+        padding: 10px 20px 10px 10px;
+        display: flex;
+        font-size: 18px;
+        border: none;
+        letter-spacing: 0.06em;
+    }
+
+    .input-form{
+        flex-direction: column!important;
+    }
+
+    .oriental-info > .text-about {
+        width: auto!important;
+    }
+
+    .oriental-info > img {
+        width: 300px!important;
+    }
+    .chicken-grill > .container-main > img {
+        margin: 25px auto !important;
+        display: block;
+        width: 300px!important;
+    }
+
+    .subscribe {
+        padding: 20px 20px 70px 20px!important;
+    }
+}
