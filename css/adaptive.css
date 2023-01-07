@@ -141,6 +141,10 @@
     .subscribe {
         padding: 20px 20px 70px 20px!important;
     }
+
+    .main-header-info {
+        background-size: cover ,cover;
+    }
 }
 
 @media screen and (max-width: 835px) {
@@ -174,8 +178,21 @@
         padding-bottom: 0!important;
     }
 
-    .links-header ul{
+    .links-header ul li{
         display: none!important;
+    }
+
+    .links-header ul li:first-child{
+        display: list-item!important;
+    }
+
+    .links-header{
+        padding: 40px 15px;
+    }
+
+    .lenora-fields p:first-of-type {
+        padding-bottom: 20px;
+        font-size: 30px;
     }
 
     .subscribe, .subscribe > .container-main{
@@ -225,5 +242,9 @@
 
     .subscribe {
         padding: 20px 20px 70px 20px!important;
+    }
+
+    .main-header-info {
+        background-size: cover ,cover;
     }
 }
