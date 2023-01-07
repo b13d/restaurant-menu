@@ -7,3 +7,8 @@ Source: https://ru.freepik.com/free-psd/restaurant-landing-page-template_7436705
 This site was built using [GitHub Pages](https://b13d.github.io/restaurant-menu/).
 
 
+Dekstop
+:-------------------------:
+![alt text](images/page-1.png)
+page-1
+
